@@ -44,7 +44,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { 
+function sumAndMultiply(a, b, c) {
     var sum = (sum(a,b) + c);
     var multiply = (multiply(a,b) * c);
     var productSummary = 'The product of 4 and 7 and 5 is ' + multiply + '.';
@@ -68,7 +68,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testArray = [2, 3, 4];
 
-function sumArray(sumArr) { 
+function sumArray(sumArr) {
     var sum = (sum(testArray[0], testArray[1]) + testArray[2]);
     var summary = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum + ' is their sum.';
     return [sum, summary];
@@ -89,7 +89,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { 
+function multiplyArray(multArr) {
     var product = (multiply(testArray[0], testArray[1]) * testArray[2]);
     var summary = 'The numbers ' + testArray[0] + ',' +testArray[1] + ',' + testArray[2] + ' have a product of 24.';
     return [product, summary];
