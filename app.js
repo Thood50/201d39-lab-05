@@ -44,12 +44,21 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
+<<<<<<< branchEight
+function sumAndMultiply(a, b, c) { 
+    var sumTotal = ((sum(a,b)[0]) + c);
+    var product = ((multiply(a,b)[0]) * c);
+    var productSummary = 'The product of 4 and 7 and 5 is ' + product + '.';
+    var sumSummary = '4 and 7 and 5 sum to ' + sumTotal + '.';
+    return [sumTotal, product, sumSummary, productSummary];
+=======
 function sumAndMultiply(a, b, c) {
     var sum = (sum(a,b) + c);
     var multiply = (multiply(a,b) * c);
     var productSummary = 'The product of 4 and 7 and 5 is ' + multiply + '.';
     var sumSummary = '4 and 7 and 5 sum to ' + sum + '.';
     return [sum, multiply, sumSummary, productSummary];
+>>>>>>> master
 
 }
 
@@ -68,10 +77,17 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testArray = [2, 3, 4];
 
+<<<<<<< branchEight
+function sumArray(sumArr) { 
+    var sumTotal = ((sum(testArray[0], testArray[1])[0]) + testArray[2]);
+    var summary = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sumTotal + ' is their sum.';
+    return [sumTotal, summary];
+=======
 function sumArray(sumArr) {
     var sum = (sum(testArray[0], testArray[1]) + testArray[2]);
     var summary = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum + ' is their sum.';
     return [sum, summary];
+>>>>>>> master
 
 }
 
@@ -89,8 +105,13 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
+<<<<<<< branchEight
+function multiplyArray(multArr) { 
+    var product = ((multiply(testArray[0], testArray[1])[0]) * testArray[2]);
+=======
 function multiplyArray(multArr) {
     var product = (multiply(testArray[0], testArray[1]) * testArray[2]);
+>>>>>>> master
     var summary = 'The numbers ' + testArray[0] + ',' +testArray[1] + ',' + testArray[2] + ' have a product of 24.';
     return [product, summary];
 
